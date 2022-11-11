@@ -20,7 +20,18 @@ public class PersonaPrueba {
         //Tarea: Crear otro objeto de tipo Persona, asignar valores de manera inicial
         //y imprimir, luego modificar sus valores y volver a imprimir
         System.out.println("persona1 = " + persona1);
-        
         System.out.println("persona1 = " + persona1);
+        Persona persona2 = new Persona("Juan", 48000, false);
+        System.out.println("Nombre persona 2 original: "+persona2.getNombre());
+        System.out.println("Sueldo persona 2 original: "+persona2.getSueldo());
+        System.out.println("Booleano persona 2 original: "+persona1.isEliminado());
+
+        //ReSet de los atributos mediante el metodo setter
+        persona2.setNombre("Pedro");
+        persona2.setSueldo(46000);
+        persona2.setEliminado(true);
+        System.out.println("Nombre persona 2 modificado" +persona2.getNombre());
+        System.out.println("Sueldo persona 2 modificado: "+persona2.getSueldo());
+        System.out.println("Booleano persona 2 modificado: "+persona2.isEliminado());
     }
 }
