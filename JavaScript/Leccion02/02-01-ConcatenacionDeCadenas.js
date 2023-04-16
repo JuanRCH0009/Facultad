@@ -1,35 +1,27 @@
 var nombre = 'Jose ';
 var apellido = 'Montes';
-var nombreCompleto = nombre + ' ' + apellido; //Primera concatenacion
+var nombreCompleto = nombre+' '+apellido;
 console.log(nombreCompleto);
-var nombreCompleto2 = 'Ariel'+ ' ' + 'Betancud'; //Segunda concatenacion
-console.log(nombreCompleto2)
-var juntos = nombre + 219; //Lee de izquierda a derecha siguiendo la cadena leyendo el numero con str
+var nombreCompleto2 = 'Ariel'+' '+'betan';
+console.log(nombreCompleto2);
+var juntos = nombre + 219; //Lee de izq a der siguiendo la cadena lee el numero como String
 console.log(juntos);
-juntos = nombre + 78 + 17 //Aqui se puede diferenciar a traves de los parentesis 
+juntos = nombre + (78 + 17); //Los numeros dentro del parenteis suman
 console.log(juntos)
-juntos = 78 + 17 + nombre
-console.log(juntos)
+juntos = 78 + 17 + nombre;
+console.log(juntos);
 
-nombre += apellido //Concatenacion con operador simplificado
+nombre += apellido; //Es una manera mas de concatenar usando el operador simplificado 
 console.log(nombre)
 
-//Hoy ya no se usa var, se usa let y const
-let nombre2 = 'Pedro';
+//Hoy ya no se usa var, se utiliza let y const
+let nombre2 = "pedro";
 console.log(nombre2);
 
-const apellido2 = 'Lopes';
-//apellido2 = 'Perez';
-console.log(apellido2)
+const apellido2 = "Lepes"; //una constante no puede ser modificada
+console.log(apellido2);
 
-let x, y;  //Se puden cargar varias variables un una misma linea
-x = 17, y = 21;  //Se puede hacer la asigancion de varias variables dentro de la misma linea
-let z = x + y; //Se asigna el valor de una operacion
+let x, y; //Se pueden crear varias variables dentro de una misma linea
+x = 17, y = 21; //Se pueden asignar varias variables dentro de la misma linea
+let z = x + y; //se asigna el valor de la operacion
 console.log(z);
-
-let $1num = 31;
-let rompiendo = 'Rompe';
-
-console.log($1num)
-console.log(rompiendo)
-

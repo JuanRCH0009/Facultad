@@ -1,3 +1,4 @@
-var nombre = "Juan";
-var nombre = "Hola Mundo desde Java Script "
+var nombre = "Ariel";
+nombre = "Hola Mundo desde Javascript";
+
 console.log(nombre);
